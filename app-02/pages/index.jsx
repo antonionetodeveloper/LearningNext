@@ -1,10 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import { Header, Main, Footer } from '../styles/home'
 import { Button } from '../styles/Assets/button'
 
 export default function Home() {
+  
   return (
     <>
       <Head>
@@ -20,7 +23,7 @@ export default function Home() {
 
       <Main>
         <section>
-          <div>
+          <div data-aos="fade-left">
             <h2>Quem somos ?</h2>
             <p>
               Somos a Escolinha, escola apaixonada por 
@@ -30,6 +33,7 @@ export default function Home() {
             </p>
           </div>
           <Image
+            data-aos="fade-left"
             src="/whoWeAre.svg"
             width="500"
             height="500"
@@ -39,12 +43,13 @@ export default function Home() {
 
         <section>
           <Image
+            data-aos="fade-right"
             src="/teacher.svg"
             width="500"
             height="500"
             alt='Quem somos ?'
             />
-          <div>
+          <div data-aos="fade-right">
             <h2>Equipe de professores</h2>
             <p>
               De todas as áreas do conhecimento e com 
@@ -56,7 +61,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div>
+          <div data-aos="fade-left">
             <h2>Segurança</h2>
             <p>
               Tomando os devidos cuidados com a COVID-19 
@@ -65,6 +70,7 @@ export default function Home() {
             </p>
           </div>
           <Image
+            data-aos="fade-left"
             src="/students.svg"
             width="500"
             height="500"
