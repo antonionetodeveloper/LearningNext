@@ -49,7 +49,7 @@ export default function Home() {
             />
           </section>
 
-          <section className='content' id='sobre'>
+          <section className='content' id='contato'>
             <Image
               src="/contact.jpg"
               alt=""
