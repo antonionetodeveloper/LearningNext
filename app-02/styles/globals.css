@@ -7,3 +7,18 @@ body {
   font-family: "Montserrat";
   background-color: #EFF2FF;
 }
+
+
+    /*ScrollBar*/
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2e9eff;
+  border-radius: 20px; 
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  cursor: pointer;
+}

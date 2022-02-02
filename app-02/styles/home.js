@@ -7,7 +7,9 @@ export const Header = styled.header`
 		background-size: 100vw;
 		background-repeat: no-repeat;
 
-		height: 30vh;
+		height: 35vh;
+    margin-top: -3vw;
+
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -20,7 +22,7 @@ export const Header = styled.header`
 		
 		h1, button{
 			margin: 5vw;
-			margin-top: -1vw;
+			margin-top: 3vw;
 		}
 	}
 `;
