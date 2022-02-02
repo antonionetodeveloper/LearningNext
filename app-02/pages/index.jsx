@@ -41,7 +41,7 @@ export default function Home() {
           />
         </section>
 
-        <section>
+        <section className='mobile_reversed'> 
           <Image
             data-aos="fade-right"
             src="/teacher.svg"
