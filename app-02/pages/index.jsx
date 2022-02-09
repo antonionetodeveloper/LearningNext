@@ -23,7 +23,7 @@ export default function Home() {
 
       <Main>
         <section>
-          <div data-aos="fade-left">
+          <div data-aos="fade-right">
             <h2>Quem somos ?</h2>
             <p>
               Somos a Escolinha, escola apaixonada por 
@@ -33,7 +33,7 @@ export default function Home() {
             </p>
           </div>
           <Image
-            data-aos="fade-left"
+            data-aos="fade-right"
             src="/whoWeAre.svg"
             width="500"
             height="500"
@@ -61,7 +61,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div data-aos="fade-left">
+          <div data-aos="fade-right">
             <h2>Segurança</h2>
             <p>
               Tomando os devidos cuidados com a COVID-19 
@@ -70,7 +70,7 @@ export default function Home() {
             </p>
           </div>
           <Image
-            data-aos="fade-left"
+            data-aos="fade-right"
             src="/students.svg"
             width="500"
             height="500"
